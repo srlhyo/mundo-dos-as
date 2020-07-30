@@ -1,0 +1,86 @@
+repeat(auto-fit, minmax(100px, 1fr)); areads, gaps (columns)
+
+
+(rows) - grid-auto-rows: 100px; - all rows will be created implicity
+
+pics that don't fit well into one grid cell so we can make them twice as big or so
+
+use the grid-column: 1/ span 2 (forces to stay in the first column) or auto/ span 2 will be flexible
+
+grid-low will do the same
+
+How to fill the blank spots? ==== 
+
+in the container you can say  grid-auto-flow:dense to fill the blank spaces in the grid
+
+
+.horizontal
+.vertical.
+.big
+
+
+For people having issues with images not fitting into the grid, Per somehow forgets to add that you need to apply the following properties to the img tag
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+for it to work well with all the images. Found that through the CSS Grid article he wrote on Medium,.
+Hope this helps someone cos I was stuck too
+
+amazing tutorial on galeria https://www.youtube.com/watch?v=gvPyJ0rc944&t=280s
+
+to learn more:
+
+https://www.youtube.com/watch?v=t6CBKf8K_Ac
+
+
+@media screen and (max-width:500px) {
+	// bla bla bla
+}
+
+in the image
+object-fit: cover
+object-position: 50% 50%
+transition: 5s ease-in-out
+
+:hover
+transform:scale(1.5)
+
+sass with grid
+https://www.youtube.com/watch?v=bam83Xv4VMA 
+
+
+solution for hover effects on touchscreen
+https://stackoverflow.com/questions/55195552/is-there-a-css-only-solution-to-hover-on-touchscreens
+https://dzone.com/articles/finally-a-css-only-solution-to-hover-on-touchscree
+
+@media(hover: hover) and (pointer: fine) {
+    nav a:hover {
+        background: yellow;
+    }
+}
+
+// great scrolling
+https://www.youtube.com/watch?v=y9nlfqT4s9s :)))
+
+good for my tutorials
+https://www.youtube.com/watch?v=bpNR7-TX_fQ
+
+nice scrolling animation for later:
+https://www.youtube.com/watch?v=S18Wh9IELo0
+https://www.youtube.com/watch?v=Ltdd2RGkNUY
+
+hamburger effects
+https://www.youtube.com/watch?v=4XJ8yS0zpa4
+
+parallax 
+
+
+fixed menu;;;; width: calc(1400px - 3.5em)
+
+for testing
+http://responsivechecker.net/responsive
+
+907
